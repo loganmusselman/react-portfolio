@@ -1,0 +1,157 @@
+/*
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Gilda Display', serif;
+font-family: 'Hind Vadodara', sans-serif;
+*/
+
+.Contact-holder{
+	margin: auto;
+	margin-top: 100px;
+	padding: 25px;
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr 100px;
+	grid-template-rows: minmax(50px, auto);
+
+}
+
+.Contact-title{
+	text-align: center;
+	grid-column: 2;
+	grid-row: 1;
+	font-family: 'Gilda Display', serif;
+	font-size: 2.3em;
+	background-color: floralwhite;
+	margin: auto;
+	padding: 25px;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+	border-radius: 2%;
+	margin-bottom: 15px;
+
+}
+
+.Contact-container {
+	margin: auto;
+	grid-column: 2;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	display: grid;
+	grid-template-columns: 100px 1fr 1fr 100px;
+	grid-template-rows: minmax(50px, auto);
+
+}
+
+.first {
+	grid-column: 2;
+	grid-row: 1;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	border: none;
+	width: 300px;
+	background-color: floralwhite;
+
+}
+
+.first:focus {
+	border-bottom: 5px solid #85BDBF;
+	transition: .3s ease-in-out;
+}
+
+.last {
+	grid-column: 2;
+	grid-row: 2;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	border: none;
+	background-color: floralwhite;
+}
+
+.last:focus {
+	border-bottom: 5px solid #85BDBF;
+	transition: .3s ease-in-out;
+}
+
+.email {
+	grid-column: 2;
+	grid-row: 3;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	border: none;
+	background-color: floralwhite;
+}
+
+.email:focus {
+	border-bottom: 5px solid #85BDBF;
+	transition: .3s ease-in-out;
+}
+
+.reason {
+	grid-column: 2;
+	grid-row: 4;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	border: none;
+	background-color: floralwhite;
+
+}
+
+.comment {
+	grid-column: 2;
+	grid-row: 5;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	border: none;
+	background-color: floralwhite;
+
+}
+
+.comment:focus {
+	border-bottom: 5px solid #85BDBF;
+	transition: .3s ease-in-out;
+}
+
+.submit {
+	grid-column: 2;
+	grid-row: 6;
+	padding: 15px;
+	margin: 5px;
+	transition: .3s ease-in-out;
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 1em;
+	background-color: floralwhite;
+}
+
+.submit:focus {
+	transition: .3s ease-in-out;
+}
+
+
+.Form-container {
+	grid-column: 3;
+	grid-row: 2;
+	background-color: floralwhite;
+	padding: 25px;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+	font-family: 'Gilda Display', serif;
+	border-radius: 1%;
+	transition: .3s ease-in-out;
+}
+
+.signature {
+	margin-top: 50px;
+	text-align: center;
+}
